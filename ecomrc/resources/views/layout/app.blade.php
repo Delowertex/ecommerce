@@ -38,9 +38,9 @@
                         <div class="text-center">
                             <div id="news-flash" class="d-inline-block">
                                 <ul>
-                                    <li>Get great devices up to 50% off <a href="shop.html">View details</a></li>
+                                    <li>Get great devices up to 50% off <a href="{{url('/shop')}}">View details</a></li>
                                     <li>Supper Value Deals - Save more with coupons</li>
-                                    <li>Trendy 25silver jewelry, save up 35% off today <a href="shop.html">Shop now</a></li>
+                                    <li>Trendy 25silver jewelry, save up 35% off today <a href="{{url('/shop')}}">Shop now</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                                     </a>
                                 </div>
                                 <div class="header-action-icon-2">
-                                    <a class="mini-cart-icon" href="cart.html">
+                                    <a class="mini-cart-icon" href="{{url('/cart')}}">
                                         <img alt="Surfside Media" src="{{asset('assets/imgs/theme/icons/icon-cart.svg')}}">
                                         <span class="pro-count blue">2</span>
                                     </a>
@@ -112,7 +112,7 @@
                                                 <h4>Total <span>$4000.00</span></h4>
                                             </div>
                                             <div class="shopping-cart-button">
-                                                <a href="cart.html" class="outline">View cart</a>
+                                                <a href="{{url('/cart')}}" class="outline">View cart</a>
                                                 <a href="checkout.html">Checkout</a>
                                             </div>
                                         </div>
@@ -138,7 +138,7 @@
                             <div class="categori-dropdown-wrap categori-dropdown-active-large">
                                 <ul>
                                     <li class="has-children">
-                                        <a href="shop.html"><i class="surfsidemedia-font-dress"></i>Women's Clothing</a>
+                                        <a href="{{url('/shop')}}"><i class="surfsidemedia-font-dress"></i>Women's Clothing</a>
                                         <div class="dropdown-menu">
                                             <ul class="mega-menu d-lg-flex">
                                                 <li class="mega-menu-col col-lg-7">
@@ -193,7 +193,7 @@
                                         </div>
                                     </li>
                                     <li class="has-children">
-                                        <a href="shop.html"><i class="surfsidemedia-font-tshirt"></i>Men's Clothing</a>
+                                        <a href="{{url('/shop')}}"><i class="surfsidemedia-font-tshirt"></i>Men's Clothing</a>
                                         <div class="dropdown-menu">
                                             <ul class="mega-menu d-lg-flex">
                                                 <li class="mega-menu-col col-lg-7">
@@ -239,7 +239,7 @@
                                         </div>
                                     </li>
                                     <li class="has-children">
-                                        <a href="shop.html"><i class="surfsidemedia-font-smartphone"></i> Cellphones</a>
+                                        <a href="{{url('/shop')}}"><i class="surfsidemedia-font-smartphone"></i> Cellphones</a>
                                         <div class="dropdown-menu">
                                             <ul class="mega-menu d-lg-flex">
                                                 <li class="mega-menu-col col-lg-7">
@@ -293,19 +293,19 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-desktop"></i>Computer & Office</a></li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-cpu"></i>Consumer Electronics</a></li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-diamond"></i>Jewelry & Accessories</a></li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-home"></i>Home & Garden</a></li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-high-heels"></i>Shoes</a></li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-teddy-bear"></i>Mother & Kids</a></li>
-                                    <li><a href="shop.html"><i class="surfsidemedia-font-kite"></i>Outdoor fun</a></li>
+                                    <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-desktop"></i>Computer & Office</a></li>
+                                    <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-cpu"></i>Consumer Electronics</a></li>
+                                    <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-diamond"></i>Jewelry & Accessories</a></li>
+                                    <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-home"></i>Home & Garden</a></li>
+                                    <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-high-heels"></i>Shoes</a></li>
+                                    <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-teddy-bear"></i>Mother & Kids</a></li>
+                                    <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-kite"></i>Outdoor fun</a></li>
                                     <li>
                                         <ul class="more_slide_open" style="display: none;">
-                                            <li><a href="shop.html"><i class="surfsidemedia-font-desktop"></i>Beauty, Health</a></li>
-                                            <li><a href="shop.html"><i class="surfsidemedia-font-cpu"></i>Bags and Shoes</a></li>
-                                            <li><a href="shop.html"><i class="surfsidemedia-font-diamond"></i>Consumer Electronics</a></li>
-                                            <li><a href="shop.html"><i class="surfsidemedia-font-home"></i>Automobiles & Motorcycles</a></li>
+                                            <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-desktop"></i>Beauty, Health</a></li>
+                                            <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-cpu"></i>Bags and Shoes</a></li>
+                                            <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-diamond"></i>Consumer Electronics</a></li>
+                                            <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-home"></i>Automobiles & Motorcycles</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -317,7 +317,7 @@
                                 <ul>
                                     <li><a class="active" href="index.html">Home </a></li>
                                     <li><a href="about.html">About</a></li>
-                                    <li><a href="shop.html">Shop</a></li>
+                                    <li><a href="{{url('/shop')}}">Shop</a></li>
                                     <li class="position-static"><a href="#">Our Collections <i class="fi-rs-angle-down"></i></a>
                                         <ul class="mega-menu">
                                             <li class="sub-mega-menu sub-mega-menu-width-22">
@@ -405,7 +405,7 @@
                                 </a>
                             </div>
                             <div class="header-action-icon-2">
-                                <a class="mini-cart-icon" href="cart.html">
+                                <a class="mini-cart-icon" href="{{url('/cart')}}">
                                     <img alt="Surfside Media" src="{{asset('assets/imgs/theme/icons/icon-cart.svg')}}">
                                     <span class="pro-count white">2</span>
                                 </a>
@@ -441,7 +441,7 @@
                                             <h4>Total <span>$383.00</span></h4>
                                         </div>
                                         <div class="shopping-cart-button">
-                                            <a href="cart.html">View cart</a>
+                                            <a href="{{url('/cart')}}">View cart</a>
                                             <a href="shop-checkout.php">Checkout</a>
                                         </div>
                                     </div>
@@ -487,15 +487,15 @@
                         </a>
                         <div class="categori-dropdown-wrap categori-dropdown-active-small">
                             <ul>
-                                <li><a href="shop.html"><i class="surfsidemedia-font-dress"></i>Women's Clothing</a></li>
-                                <li><a href="shop.html"><i class="surfsidemedia-font-tshirt"></i>Men's Clothing</a></li>
-                                <li> <a href="shop.html"><i class="surfsidemedia-font-smartphone"></i> Cellphones</a></li>
-                                <li><a href="shop.html"><i class="surfsidemedia-font-desktop"></i>Computer & Office</a></li>
-                                <li><a href="shop.html"><i class="surfsidemedia-font-cpu"></i>Consumer Electronics</a></li>
-                                <li><a href="shop.html"><i class="surfsidemedia-font-home"></i>Home & Garden</a></li>
-                                <li><a href="shop.html"><i class="surfsidemedia-font-high-heels"></i>Shoes</a></li>
-                                <li><a href="shop.html"><i class="surfsidemedia-font-teddy-bear"></i>Mother & Kids</a></li>
-                                <li><a href="shop.html"><i class="surfsidemedia-font-kite"></i>Outdoor fun</a></li>
+                                <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-dress"></i>Women's Clothing</a></li>
+                                <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-tshirt"></i>Men's Clothing</a></li>
+                                <li> <a href="{{url('/shop')}}"><i class="surfsidemedia-font-smartphone"></i> Cellphones</a></li>
+                                <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-desktop"></i>Computer & Office</a></li>
+                                <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-cpu"></i>Consumer Electronics</a></li>
+                                <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-home"></i>Home & Garden</a></li>
+                                <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-high-heels"></i>Shoes</a></li>
+                                <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-teddy-bear"></i>Mother & Kids</a></li>
+                                <li><a href="{{url('/shop')}}"><i class="surfsidemedia-font-kite"></i>Outdoor fun</a></li>
                             </ul>
                         </div>
                     </div>
@@ -503,7 +503,7 @@
                     <nav>
                         <ul class="mobile-menu">
                             <li class="menu-item-has-children"><span class="menu-expand"></span><a href="index.html">Home</a></li>
-                            <li class="menu-item-has-children"><span class="menu-expand"></span><a href="shop.html">shop</a></li>
+                            <li class="menu-item-has-children"><span class="menu-expand"></span><a href="{{url('/shop')}}">shop</a></li>
                             <li class="menu-item-has-children"><span class="menu-expand"></span><a href="#">Our Collections</a>
                                 <ul class="dropdown">
                                     <li class="menu-item-has-children"><span class="menu-expand"></span><a href="#">Women's Fashion</a>
@@ -699,7 +699,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Clothing</a>
+                                            <a href="{{url('/shop')}}">Clothing</a>
                                         </div>
                                         <h2><a href="product-details.html">Colorful Pattern Shirts</a></h2>
                                         <div class="rating-result" title="90%">
@@ -712,7 +712,7 @@
                                             <span class="old-price">$245.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -737,7 +737,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Clothing</a>
+                                            <a href="{{url('/shop')}}">Clothing</a>
                                         </div>
                                         <h2><a href="product-details.html">Plain Color Pocket Shirts</a></h2>
                                         <div class="rating-result" title="90%">
@@ -750,7 +750,7 @@
                                             <span class="old-price">$255.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -775,7 +775,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Shirts</a>
+                                            <a href="{{url('/shop')}}">Shirts</a>
                                         </div>
                                         <h2><a href="product-details.html">Vintage Floral Oil Shirts</a></h2>
                                         <div class="rating-result" title="90%">
@@ -788,7 +788,7 @@
                                             <span class="old-price">$445.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -813,7 +813,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Clothing</a>
+                                            <a href="{{url('/shop')}}">Clothing</a>
                                         </div>
                                         <h2><a href="product-details.html">Colorful Hawaiian Shirts</a></h2>
                                         <div class="rating-result" title="90%">
@@ -826,7 +826,7 @@
                                             <span class="old-price">$235.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -851,7 +851,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Shirt</a>
+                                            <a href="{{url('/shop')}}">Shirt</a>
                                         </div>
                                         <h2><a href="product-details.html">Flowers Sleeve Lapel Shirt</a></h2>
                                         <div class="rating-result" title="90%">
@@ -864,7 +864,7 @@
                                             <span class="old-price">$45.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -889,7 +889,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Shirts</a>
+                                            <a href="{{url('/shop')}}">Shirts</a>
                                         </div>
                                         <h2><a href="product-details.html">Ethnic Floral Casual Shirts</a></h2>
                                         <div class="rating-result" title="90%">
@@ -902,7 +902,7 @@
                                             <span class="old-price">$245.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -927,7 +927,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Shoes</a>
+                                            <a href="{{url('/shop')}}">Shoes</a>
                                         </div>
                                         <h2><a href="product-details.html">Stitching Hole Sandals</a></h2>
                                         <div class="rating-result" title="90%">
@@ -939,7 +939,7 @@
                                             <span>$1275.85 </span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -961,7 +961,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Shirt</a>
+                                            <a href="{{url('/shop')}}">Shirt</a>
                                         </div>
                                         <h2><a href="product-details.html">Mens Porcelain Shirt</a></h2>
                                         <div class="rating-result" title="90%">
@@ -974,7 +974,7 @@
                                             <span class="old-price">$245.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1005,7 +1005,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Donec </a>
+                                            <a href="{{url('/shop')}}">Donec </a>
                                         </div>
                                         <h2><a href="product-details.html">Lorem ipsum dolor</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1018,7 +1018,7 @@
                                             <span class="old-price">$245.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1043,7 +1043,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Music</a>
+                                            <a href="{{url('/shop')}}">Music</a>
                                         </div>
                                         <h2><a href="product-details.html">Sed tincidunt interdum</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1056,7 +1056,7 @@
                                             <span class="old-price">$255.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1081,7 +1081,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Watch</a>
+                                            <a href="{{url('/shop')}}">Watch</a>
                                         </div>
                                         <h2><a href="product-details.html">Fusce metus orci</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1094,7 +1094,7 @@
                                             <span class="old-price">$445.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1119,7 +1119,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Music</a>
+                                            <a href="{{url('/shop')}}">Music</a>
                                         </div>
                                         <h2><a href="product-details.html">Integer venenatis libero</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1132,7 +1132,7 @@
                                             <span class="old-price">$235.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1157,7 +1157,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Speaker</a>
+                                            <a href="{{url('/shop')}}">Speaker</a>
                                         </div>
                                         <h2><a href="product-details.html">Cras tempor orci id</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1170,7 +1170,7 @@
                                             <span class="old-price">$45.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1195,7 +1195,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Camera</a>
+                                            <a href="{{url('/shop')}}">Camera</a>
                                         </div>
                                         <h2><a href="product-details.html">Nullam cursus mi qui</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1208,7 +1208,7 @@
                                             <span class="old-price">$245.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1233,7 +1233,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Phone</a>
+                                            <a href="{{url('/shop')}}">Phone</a>
                                         </div>
                                         <h2><a href="product-details.html">Fusce fringilla ultrices</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1245,7 +1245,7 @@
                                             <span>$1275.85 </span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1267,7 +1267,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Accessories </a>
+                                            <a href="{{url('/shop')}}">Accessories </a>
                                         </div>
                                         <h2><a href="product-details.html">Sed sollicitudin est</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1280,7 +1280,7 @@
                                             <span class="old-price">$245.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1311,7 +1311,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Music</a>
+                                            <a href="{{url('/shop')}}">Music</a>
                                         </div>
                                         <h2><a href="product-details.html">Donec ut nisl rutrum</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1324,7 +1324,7 @@
                                             <span class="old-price">$245.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1349,7 +1349,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Music</a>
+                                            <a href="{{url('/shop')}}">Music</a>
                                         </div>
                                         <h2><a href="product-details.html">Nullam dapibus pharetra</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1362,7 +1362,7 @@
                                             <span class="old-price">$255.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1387,7 +1387,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Watch</a>
+                                            <a href="{{url('/shop')}}">Watch</a>
                                         </div>
                                         <h2><a href="product-details.html">Morbi dictum finibus</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1400,7 +1400,7 @@
                                             <span class="old-price">$445.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1425,7 +1425,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Music</a>
+                                            <a href="{{url('/shop')}}">Music</a>
                                         </div>
                                         <h2><a href="product-details.html">Nunc volutpat massa</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1438,7 +1438,7 @@
                                             <span class="old-price">$235.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1463,7 +1463,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Speaker</a>
+                                            <a href="{{url('/shop')}}">Speaker</a>
                                         </div>
                                         <h2><a href="product-details.html">Nullam ultricies luctus</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1476,7 +1476,7 @@
                                             <span class="old-price">$45.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1501,7 +1501,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Camera</a>
+                                            <a href="{{url('/shop')}}">Camera</a>
                                         </div>
                                         <h2><a href="product-details.html">Nullam mattis enim</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1514,7 +1514,7 @@
                                             <span class="old-price">$245.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1539,7 +1539,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Phone</a>
+                                            <a href="{{url('/shop')}}">Phone</a>
                                         </div>
                                         <h2><a href="product-details.html">Vivamus sollicitudin</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1551,7 +1551,7 @@
                                             <span>$1275.85 </span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1573,7 +1573,7 @@
                                     </div>
                                     <div class="product-content-wrap">
                                         <div class="product-category">
-                                            <a href="shop.html">Accessories </a>
+                                            <a href="{{url('/shop')}}">Accessories </a>
                                         </div>
                                         <h2><a href="product-details.html"> Donec ut nisl rutrum</a></h2>
                                         <div class="rating-result" title="90%">
@@ -1586,7 +1586,7 @@
                                             <span class="old-price">$245.8</span>
                                         </div>
                                         <div class="product-action-1 show">
-                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="cart.html"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn hover-up" href="{{url('/cart')}}"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1606,11 +1606,15 @@
                     <div class="banner-text d-md-block d-none">
                         <h4 class="mb-15 mt-40 text-brand">Repair Services</h4>
                         <h1 class="fw-600 mb-20">We're an Apple <br>Authorised Service Provider</h1>
-                        <a href="shop.html" class="btn">Learn More <i class="fi-rs-arrow-right"></i></a>
+                        <a href="{{url('/shop')}}" class="btn">Learn More <i class="fi-rs-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
         </section>
+        
+
+
+
         <section class="popular-categories section-padding mt-15 mb-25">
             <div class="container wow fadeIn animated">
                 <h3 class="section-title mb-20"><span>Popular</span> Categories</h3>
@@ -1669,6 +1673,11 @@
                 </div>
             </div>
         </section>
+
+
+
+
+
         <section class="banners mb-15">
             <div class="container">
                 <div class="row">
@@ -1678,7 +1687,7 @@
                             <div class="banner-text">
                                 <span>Smart Offer</span>
                                 <h4>Save 20% on <br>Woman Bag</h4>
-                                <a href="shop.html">Shop Now <i class="fi-rs-arrow-right"></i></a>
+                                <a href="{{url('/shop')}}">Shop Now <i class="fi-rs-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1688,7 +1697,7 @@
                             <div class="banner-text">
                                 <span>Sale off</span>
                                 <h4>Great Summer <br>Collection</h4>
-                                <a href="shop.html">Shop Now <i class="fi-rs-arrow-right"></i></a>
+                                <a href="{{url('/shop')}}">Shop Now <i class="fi-rs-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1698,7 +1707,7 @@
                             <div class="banner-text">
                                 <span>New Arrivals</span>
                                 <h4>Shop Today’s <br>Deals & Offers</h4>
-                                <a href="shop.html">Shop Now <i class="fi-rs-arrow-right"></i></a>
+                                <a href="{{url('/shop')}}">Shop Now <i class="fi-rs-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -2099,5 +2108,8 @@
 <!-- Template  JS -->
 <script src="{{asset('assets/js/main.js?v=3.3"></script>
 <script src="{{asset('assets/js/shop.js?v=3.3"></script></body>
+
+
+@yield('script')    
 
 </html>
